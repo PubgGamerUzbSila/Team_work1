@@ -1,0 +1,95 @@
+<<<<<<< HEAD
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+=======
+<<<<<<< HEAD
+
+/* build qismi boshlandi============================================== */
+.container{
+    width: 916px;
+    border: 1px solid black;
+}
+.build_header{
+    width: 446px;
+height: 186px;
+}
+.build .container{
+    margin-top: 52px;
+}
+.build{
+height: 1200px;
+width: 1280px;
+border: 1px solid black;
+border-color: #FFF;
+}
+.build_header_big_text{
+    width: 446px;
+height: 156px;
+
+/* header 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 78px;
+
+/* black */
+
+color: #000000;
+}
+.build_header_small_text{
+    margin-top: 74px;
+width: 446px;
+height: 50px;
+
+/* body text 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+/* or 132% */
+
+
+/* black */
+
+color: #000000;
+}
+
+
+/* built qismi tugadi======================================= */
+=======
+>>>>>>> 254d2cd697f8adf5cc951a515125eb1e4cc050e9
+.footer1{
+    background-color: black;
+}
+.h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 133.02%;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.yozuv1{
+    width: 450px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+>>>>>>> 6a8deae4d02f2b31e763167f071e98bc95bed439
