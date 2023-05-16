@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@
 body{
     background-color: #ccc;
 }
-=======
 
 
 @font-face {
@@ -29,14 +28,124 @@ body{
 
 
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;
-    list-style: none;
-    text-decoration: none;
+
+
+
+
+ul{
+    list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_container{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.header_navbar{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.header_navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+}
+.header .header_container .header_navbar div{
+    display: flex;
+}
+.header .header_container .header_navbar ul li a{
+
+/* nav text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 18px;
+/* identical to box height, or 164% */
+
+
+/* black */
+
+color: #000000;
+
+}
+.header_footer{
+  position: relative;  
+}
+.header_dashboard_container .header_footer .header_title_box .header_btn_box button{
+    padding:10px 15px ;
+    border: none;
+    margin-top: 10px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box button:first-child{
+    display: flex;
+padding: 10px 14.5px;
+background: #2254B4;
+border-radius: 4px;
+    color: #fff;
+    border-radius: 5px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box{
+    display: flex;
+    gap: 10px;
+ }
+
+.header .header_container .header_navbar ul li{
+    padding: 5px 27px;
+}
+.header .header_container .header_navbar div{
+    margin-left:160px;
+}
+.header .header_container .header_navbar ul li a .vektor{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.header_dashboard_container{
+    padding-left: 8%;
+    padding-right: 15%;
+}
+.header_dashboard{
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    margin-top: 150px;
+    width: 250px;
+    border-radius:15px ;
+    gap: 5px ;
+    padding: 3px ;
+}
+ .header_dashboard_container .header_footer .header_dashboard a{
+    background-color: lightblue;
+    padding: 4px 8px ;
+    font-size: 12px;
+    border-radius: 20px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .texts h1{
+    font-size: 56px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+width: 446px;
+height: 156px;
+line-height: 75px;
+ }
+ .img{
+    position: absolute;
+    top:-40px;
+    right:-250px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .texts h3{
+    width: 446px;
+}
+ /*header qismi tugadi */
+
+
 
 
 .biznes{
@@ -44,8 +153,12 @@ body{
     height: 916px;
     margin-left: 182px;
     margin-top: 148px;
+
+    background-color: antiquewhite;
+
     margin: 0 auto;
    
+
 }
 .description{
     display: flex;
@@ -92,10 +205,7 @@ body{
     background: #F5F5F5;
     border-radius: 8px;
 } 
-.header_busines{
-    width: 544px;
-    height: 42px;
-}
+
 .header_busines ul{
     list-style: none;
     display: flex;
@@ -236,11 +346,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 78px;
-
+}
 /* black */
 
-color: #000000;
-}
 
 .build_header_small_text{
     /* margin-top: 74px; */
@@ -250,6 +358,10 @@ color: #000000;
 
 font-family: 'Inter';
 font-style: normal;
+margin-bottom: 31px;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
 font-weight: 400;
 font-size: 19px;
 line-height: 25px;
@@ -259,11 +371,13 @@ line-height: 25px;
 /* black */
 
 color: #000000;
+
 }
 .build_connect{
     width: 916px;
 height: 354px;
 padding: 56px 0 0    45px;
+
 
 
 /* light blue */
