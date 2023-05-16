@@ -133,7 +133,13 @@
     margin-right: 35px;
 }
 .business_logo{
-    
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 189px;
+    top: 116px;
+    background: #FFFFFF;
+    border-radius: 111px;
 }
 
 /* build qismi boshlandi============================================== */
