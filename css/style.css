@@ -172,7 +172,7 @@ body{
     cursor: pointer;
 }
 
->>>>>>> 455fe3751045715d15f32ddef33be839d1614e3d
+
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
@@ -296,7 +296,7 @@ border-radius: 4px;
 .direct_pay1{
     width: 448px;
 height: 537px;
-padding: 56px 0 0    45px;
+padding: 56px 0 0 45px;
 
 /* light blue */
 border-radius: 8px;
@@ -336,8 +336,7 @@ border-radius: 4px;
 }
 /* built qismi tugadi======================================= */
 
-<<<<<<< HEAD
-=======
+
 /* Get bo'limi boshlandi ===========================================*/
     
     .get .container {
@@ -396,7 +395,7 @@ border-radius: 4px;
     
 /* Get bo'limi tugadi ===========================================*/
 
->>>>>>> 455fe3751045715d15f32ddef33be839d1614e3d
+
 .footer1{
     background-color: black;
 }
@@ -420,9 +419,6 @@ border-radius: 4px;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
-<<<<<<< HEAD
+
 }
 
-=======
-}
->>>>>>> 455fe3751045715d15f32ddef33be839d1614e3d
