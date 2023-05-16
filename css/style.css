@@ -7,7 +7,132 @@
     list-style: none;
     text-decoration: none;
 }
-
+.biznes{
+    position: relative;
+    position: absolute;
+    width: 1281px;
+    height: 916px;
+    left: 182pxpx;
+    top: 148pxpx;
+    background-color: antiquewhite;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 446px;
+    height: 186px;
+    position: absolute;
+    left: 182px;
+    top: 27px;
+}
+.business_building{
+    position: absolute;
+    left: 182px;
+    top: 148px;
+    width: 446px;
+    height: 112px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 133.02%;
+    color: #000000;
+}
+.here_are{
+    position: absolute;
+    left: 182px;
+    top: 284px;
+    width: 446px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+}
+ .business_bottom{
+    position: absolute;
+    width: 916px;
+    height: 635px;
+    left: 182px;
+    top: 384px;
+    background: #F5F5F5;
+    border-radius: 8px;
+} 
+.header_busines{
+    
+}
+.header_busines ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 544px;
+    height: 42px;
+    left: 195px;
+    top: 44px;
+}
+.leading{
+    position: absolute;
+    left: 45px;
+    top: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14.5px;
+    gap: 5px;
+    width: 79px;
+    height: 42px;
+    background: #000000;
+    border-radius: 26px;
+}
+.carbon{
+    position: absolute;
+    top: 162px;
+    left: 45px;
+    width: 345px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133.02%;
+    color: #000000; 
+}
+.carbon_wanted{
+    position: absolute;
+    top: 266px;
+    left: 45px;
+    width: 345px;
+    height: 126px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #606060;
+}
+.read_more{
+    position: absolute;
+    top: 417px;
+    left: 45px;
+    width: 220px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2254B4;
+}
 
 /* build qismi boshlandi============================================== */
 .container{
@@ -65,9 +190,11 @@ color: #000000;
 
 
 /* built qismi tugadi======================================= */
+
 /* Get bo'limi boshlandi ===========================================*/
     
 /* Get bo'limi tugadi ===========================================*/
+
 .footer1{
     background-color: black;
 }
