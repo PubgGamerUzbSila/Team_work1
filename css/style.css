@@ -6,66 +6,13 @@
     list-style: none;
     text-decoration: none;
 }
-/* build qismi boshlandi============================================== */
-.container{
-    width: 916px;
-    border: 1px solid black;
-}
-.build_header{
-    width: 446px;
-height: 186px;
-}
-.build .container{
-    margin-top: 52px;
-}
-.build{
-height: 1200px;
-width: 1280px;
-border: 1px solid black;
-border-color: #FFF;
-}
-.build_header_big_text{
-    width: 446px;
-height: 156px;
-
-/* header 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 78px;
-
-/* black */
-
-color: #000000;
-}
-.build_header_small_text{
-    margin-top: 74px;
-width: 446px;
-height: 50px;
-
-/* body text 1 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 19px;
-line-height: 25px;
-/* or 132% */
-
-
-/* black */
-
-color: #000000;
-}
-
-
-/* built qismi tugadi*/
-/* ============================================= */
-/* ---Footer start-- */
 .footer .footer1{
-    background-color: black;
+    width: 1280px;
+    height: 855px;
+    left: 0px;
+    top: 4926px;
+    background: #000000;
+    padding-top: 100px;
 }
 .footer .footer1 .h1{
     font-family: 'Inter';
@@ -75,6 +22,7 @@ color: #000000;
     line-height: 133.02%;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 13px;
 }
 .footer .footer1 .yozuv1{
     width: 450px;
@@ -86,9 +34,52 @@ color: #000000;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 18px;
 }
 .footer .footer1 .buttonlar .button1{
-    background-color:blue;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14.5px;
+    gap: 5px; 
+    width: 150px;
+    height: 38px;
+    background: #2254B4;
+    color:white;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all 0.7s linear;
 }
-/* -----Footer end---- */
+.footer .footer1 .buttonlar .button1:hover{
+    background-color: red;
+    scale:1.1;
+}
+.footer .footer1 .buttonlar .button2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14.5px;
+    gap: 5px;
+    width: 119px;
+    height: 38px;
+    background: #202020;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+    color: white;
+    transition: all 0.7s linear; 
+}
+.footer .footer1 .buttonlar .button2:hover{
+    background-color: white;
+    color: black;
+    scale:1.1;   
+}
+.footer .footer1 .buttonlar{
+    width: 300px;
+    margin: 0 auto; 
+    display: flex;
+    gap: 15px;
+}
