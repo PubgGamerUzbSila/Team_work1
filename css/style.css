@@ -6,9 +6,7 @@
     text-decoration: none;
     list-style: none;
 }
-body{
-    background-color: #ccc;
-}
+
 
 
 @font-face {
@@ -24,55 +22,25 @@ body{
     src: url(../fonts/Inter-Thin.ttf);
     src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
-a {
-    text-decoration: none;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: none;
-    list-style: none;
-    text-decoration: none;
-}
 
 
-
-
-
-
-
-
-
-
-
-
-* {
-    box-sizing: border-box;
-   margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
 ul{
     list-style-type: none;
 }
 .header_container{
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-bottom: 200px;
 }
 .header_navbar{
+    padding-left: 10%;
+    padding-right: 8%;
     margin: 0 auto;
     padding-top: 50px;
 }
 .header_navbar ul{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 auto ;
 }
 .header .header_container .header_navbar div{
@@ -129,8 +97,8 @@ border-radius: 4px;
 }
 
 .header_dashboard_container{
-    padding-left: 8%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 50%;
 }
 .header_dashboard{
     display: flex;
@@ -403,6 +371,9 @@ color: #000000;
 
 }
 .build_connect{
+    background-image: url(../images/build-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 916px;
 height: 354px;
 padding: 56px 0 0    45px;
@@ -471,6 +442,7 @@ margin-top: 28px;
 border: none;
 cursor: pointer;
 }
+
 .direct_pay2{
     margin-left: 20px;
     width: 448px;
