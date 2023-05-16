@@ -156,9 +156,9 @@ body{
     font-size: 13px;
     line-height: 18px;
     color: #606060;
+    margin-bottom: 30px;
 }
 .read_more{
-    margin-top: 45px;
     margin-left: 45px;
     width: 220px;
     height: 21px;
@@ -183,10 +183,12 @@ body{
     background: #FFFFFF;
     border-radius: 111px;
 }
-.biznes_icon{
-    margin-top: -16px;
-    margin-left: 238px;
+.flex_for_biznes {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
 }
+
 .biznes_for:hover{
     background-color: #817a7a;
     cursor: pointer;
@@ -414,9 +416,13 @@ border-radius: 4px;
         color: #2254B4;
         gap: 5px;
     }
+<<<<<<< HEAD
     
 =======
 >>>>>>> f65222aa1fe9b946eb38d6d3a67083667411f46e
+=======
+
+>>>>>>> 703cdac2fe9d7bcb348fa20773c1f18a45519234
 /* Get bo'limi tugadi ===========================================*/
 
 
