@@ -11,8 +11,8 @@ a{
     color: black;
 }
 .header_container{
-    padding-right: 190px;
-    padding-left: 190px;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 .header_navbar{
     margin: 0 auto;
@@ -57,15 +57,70 @@ color: #000000;
 }
 
 .header_dashboard_container{
-    padding-left: 190px;
-    padding-right: 190px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .header_dashboard{
     display: flex;
+    align-items: center;
     background-color: #F5F5F5;
     margin-top: 150px;
     width: 250px;
+    border-radius:15px ;
+    gap: 5px ;
+    padding: 3px ;
 }
  .header_dashboard_container .header_footer .header_dashboard a{
+    background-color: lightblue;
+    padding: 4px 8px ;
+    font-size: 12px;
+    border-radius: 20px;
+ }
+ .header_dashboard_container .header_footer .header_title_box h1{
+    font-size: 56px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+width: 446px;
+height: 156px;
+line-height: 75px;
 
+/* black */
+
+color: #000000;
+
+ }
+ .header_dashboard_container .header_footer .header_title_box h3{
+    width: 446px;
+height: 50px;
+
+/* body text 1 */
+
+font-family: 'Inter';
+font-style: normal;
+margin-bottom: 31px;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+
+
+/* black */
+
+color: #000000;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box button{
+    padding:10px 15px ;
+    border: none;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box button:first-child{
+    display: flex;
+padding: 10px 14.5px;
+background: #2254B4;
+border-radius: 4px;
+    color: #fff;
+    border-radius: 5px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box{
+    display: flex;
+    gap: 10px;
  }
