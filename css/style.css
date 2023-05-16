@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
 .footer1{
     background-color: black;
 }
@@ -12,7 +20,8 @@
     color: #FFFFFF;
 }
 .yozuv1{
-    width: 100px;
+    width: 450px;
+    margin: 0 auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400px;
