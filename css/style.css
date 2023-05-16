@@ -1,4 +1,20 @@
 
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Black.ttf);
+    src: url(../fonts/Inter-Bold.ttf);
+    src: url(../fonts/Inter-ExtraBold.ttf);
+    src: url(../fonts/Inter-ExtraLight.ttf);
+    src: url(../fonts/Inter-Light.ttf);
+    src: url(../fonts/Inter-Medium.ttf);
+    src: url(../fonts/Inter-Regular.ttf);
+    src: url(../fonts/Inter-SemiBold.ttf);
+    src: url(../fonts/Inter-Thin.ttf);
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +23,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 .biznes{
     width: 1281px;
     height: 916px;
@@ -142,6 +159,7 @@
     border-radius: 111px;
 }
 
+
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
@@ -199,6 +217,7 @@ color: #000000;
 
 /* built qismi tugadi======================================= */
 
+
 /* Get bo'limi boshlandi ===========================================*/
     
 /* Get bo'limi tugadi ===========================================*/
@@ -226,4 +245,6 @@ color: #000000;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+
 }
+
