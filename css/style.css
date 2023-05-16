@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,8 +7,7 @@
     list-style: none;
     text-decoration: none;
 }
-=======
-<<<<<<< HEAD
+
 
 /* build qismi boshlandi============================================== */
 .container{
@@ -66,8 +65,6 @@ color: #000000;
 
 
 /* built qismi tugadi======================================= */
-=======
->>>>>>> 254d2cd697f8adf5cc951a515125eb1e4cc050e9
 .footer1{
     background-color: black;
 }
@@ -92,4 +89,3 @@ color: #000000;
     text-align: center;
     color: #FFFFFF;
 }
->>>>>>> 6a8deae4d02f2b31e763167f071e98bc95bed439
