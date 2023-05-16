@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_container{
+    padding-right: 190px;
+    padding-left: 190px;
+}
+.header_navbar{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.header_navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+}
+.header .header_container .header_navbar div{
+    display: flex;
+}
+.header .header_container .header_navbar ul li a{
+
+/* nav text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 18px;
+/* identical to box height, or 164% */
+
+
+/* black */
+
+color: #000000;
+
+}
+.header .header_container .header_navbar ul li{
+    padding: 5px 27px;
+}
+.header .header_container .header_navbar div{
+    margin-left:160px;
+}
+.header .header_container .header_navbar ul li a .vektor{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.header_dashboard_container{
+    padding-left: 190px;
+    padding-right: 190px;
+}
+.header_dashboard{
+    display: flex;
+    background-color: #F5F5F5;
+    margin-top: 150px;
+    width: 250px;
+}
+ .header_dashboard_container .header_footer .header_dashboard a{
+
+ }
