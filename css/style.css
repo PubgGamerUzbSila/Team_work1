@@ -11,8 +11,204 @@
     height: 855px;
     left: 0px;
     top: 4926px;
+    width: 1281px;
+    height: 916px;
+    margin-left: 182px;
+    margin-top: 148px;
+    background-color: antiquewhite;
+    padding-top: 123px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 446px;
+    height: 186px;
+    margin-left: 182px;
+    margin-top: 27px;
+}
+.business_building{
+    margin-left: 182px;
+    margin-top: 148px;
+    width: 446px;
+    height: 112px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 133.02%;
+    color: #000000;
+}
+.here_are{
+   
+    margin-left: 182px;
+    margin-top: 24px;
+    width: 446px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+}
+ .business_bottom{
+   
+    width: 916px;
+    height: 635px;
+    margin-left: 182px;
+    margin-top: 50px;
+    background: #F5F5F5;
+    border-radius: 8px;
+} 
+.header_busines{
+    
+}
+.header_busines ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 544px;
+    height: 42px;
+    margin-left: 59px;
+    margin-top: 56px;
+    padding-top: 44px;
+}
+.business_middle{
+    display: flex;
+    justify-content: space-between;
+}
+.leading{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14.5px;
+    gap: 5px;
+    width: 79px;
+    height: 42px;
     background: #000000;
     padding-top: 100px;
+}
+.carbon{
+    margin-top: 88px;
+    margin-left: 45px;
+    width: 345px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133.02%;
+    color: #000000; 
+}
+.carbon_wanted{
+    margin-top: 24px;
+    margin-left: 45px;
+    width: 345px;
+    height: 126px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #606060;
+}
+.read_more{
+    margin-top: 45px;
+    margin-left: 45px;
+    width: 220px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2254B4;
+}
+.busines_phone{
+    position: relative;
+    margin-top: 108px;
+    margin-right: 35px;
+}
+.business_logo{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 189px;
+    top: 116px;
+    background: #FFFFFF;
+    border-radius: 111px;
+}
+
+/* build qismi boshlandi============================================== */
+.container{
+    width: 916px;
+    border: 1px solid black;
+}
+.build_header{
+    width: 446px;
+height: 186px;
+}
+.build .container{
+    margin-top: 52px;
+}
+.build{
+height: 1200px;
+width: 1280px;
+border: 1px solid black;
+border-color: #FFF;
+}
+.build_header_big_text{
+    width: 446px;
+height: 156px;
+
+/* header 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 78px;
+
+/* black */
+
+color: #000000;
+}
+.build_header_small_text{
+    margin-top: 74px;
+width: 446px;
+height: 50px;
+
+/* body text 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+/* or 132% */
+
+
+/* black */
+
+color: #000000;
+}
+
+
+/* built qismi tugadi======================================= */
+
+/* Get bo'limi boshlandi ===========================================*/
+    
+/* Get bo'limi tugadi ===========================================*/
+/* Footer start */
+.footer .footer1{
+    background-color: black;
 }
 .footer .footer1 .h1{
     font-family: 'Inter';
@@ -83,3 +279,52 @@
     display: flex;
     gap: 15px;
 }
+.chiziq1{
+    width: 916px;
+    height: 0px;
+    left: 182px;
+    top: 387px;
+    margin: 0 auto;
+    border: 1px solid #202020;
+    margin-top: 85px;
+}
+.chiziqlarIchidagiYozuvlar{
+    display: flex;
+    justify-content: space-around;
+    padding-top:87px;
+}
+p{
+    color:white;
+    margin-bottom: 5px;
+}
+.ddiivv1{
+    margin-left: 182px;
+}
+.chiziq2{
+    width: 916px;
+    height: 0px;
+    left: 182px;
+    top: 387px;
+    margin: 0 auto;
+    border: 1px solid #202020;
+    margin-top: 85px;
+}
+.rasm{
+    margin-left:182px;
+    padding-top: 30px;
+    width: 1070px;
+    display: flex;
+}
+.rasm p{
+    margin-left: 12px;
+}
+.rasmdanKeyingiYozuv{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.asd{
+    margin-left: 990px;
+    transform: translateY(-30px);
+}
+/* Footer end */
