@@ -1,0 +1,57 @@
+
+/* build qismi boshlandi============================================== */
+.container{
+    width: 916px;
+    border: 1px solid black;
+}
+.build_header{
+    width: 446px;
+height: 186px;
+}
+.build .container{
+    margin-top: 52px;
+}
+.build{
+height: 1200px;
+width: 1280px;
+border: 1px solid black;
+border-color: #FFF;
+}
+.build_header_big_text{
+    width: 446px;
+height: 156px;
+
+/* header 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 78px;
+
+/* black */
+
+color: #000000;
+}
+.build_header_small_text{
+    margin-top: 74px;
+width: 446px;
+height: 50px;
+
+/* body text 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+/* or 132% */
+
+
+/* black */
+
+color: #000000;
+}
+
+
+/* built qismi tugadi======================================= */
