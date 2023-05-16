@@ -1,4 +1,16 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #ccc;
+}
+a {
+    text-decoration: none;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -160,23 +172,35 @@
 .container{
     width: 916px;
     border: 1px solid black;
+    margin: 0 auto;
 }
 .build_header{
-    width: 446px;
+    margin: 0 auto;
+    width: 916px;
 height: 186px;
 }
 .build .container{
     margin-top: 52px;
 }
+.build_body{
+margin-top: 51px;
+}
 .build{
+    margin: 0 auto;
 height: 1200px;
 width: 1280px;
-border: 1px solid black;
+border: 1px solid red;
 border-color: #FFF;
 }
+.direct_pay_father{
+    width: 916px;
+    margin-top: 20px;
+    height: 537px;
+    display: flex;
+    justify-content: space-between;
+}
 .build_header_big_text{
-    width: 446px;
-height: 156px;
+    
 
 /* header 1 */
 
@@ -190,10 +214,10 @@ line-height: 78px;
 
 color: #000000;
 }
+
 .build_header_small_text{
-    margin-top: 74px;
-width: 446px;
-height: 50px;
+    /* margin-top: 74px; */
+
 
 /* body text 1 */
 
@@ -209,9 +233,104 @@ line-height: 25px;
 
 color: #000000;
 }
+.build_connect{
+    width: 916px;
+height: 354px;
+padding: 56px 0 0    45px;
 
 
+/* light blue */
+border-radius: 8px;
+    background-image: url(../images/build-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_big-build_connect{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 133.02%;
+/* identical to box height, or 40px */
+
+
+/* white */
+
+color: #FFFFFF;
+margin-top: 24px;
+}
+.text_small-build_connect{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+
+
+/* white */
+
+color: #FFFFFF;
+margin-top: 8px;
+}
+.build_connect-button{
+    width: 148px;
+height: 40px;
+border: none;
+
+cursor: pointer;
+margin-top: 28px;
+
+/* white */
+
+border-radius: 4px;
+}
+#color-black{
+    color: #000;
+}
+.direct_pay1{
+    width: 448px;
+height: 537px;
+padding: 56px 0 0 45px;
+
+/* light blue */
+border-radius: 8px;
+    background-image: url(../images/build-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.direct_pay1-button{
+    width: 156px;
+height: 40px;
+margin-top: 28px;
+border: none;
+cursor: pointer;
+}
+.direct_pay2{
+    margin-left: 20px;
+    width: 448px;
+height: 537px;
+padding: 56px 0 0    45px;
+
+border-radius: 8px;
+    background-image: url(../images/build-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.direct_pay1_footer{
+    display: flex;
+    margin-top: 17px;
+}
+.direct-pay2-button{
+    margin-top: 28px;
+    width: 134px;
+height: 38px;
+cursor: pointer;
+border: none;
+border-radius: 4px;
+}
 /* built qismi tugadi======================================= */
+
 
 /* Get bo'limi boshlandi ===========================================*/
     
@@ -268,8 +387,33 @@ color: #000000;
         color: #2254B4;
         gap: 5px;
     }
-
+    .get_section_footer_mainbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .get_section_smallbox {
+        width: 293px;
+        padding: 30px 20px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .get_section_footer_title {
+        width: 199px;
+        margin: 10px 0;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .link_section_get {
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
 /* Get bo'limi tugadi ===========================================*/
+
 
 .footer1{
     background-color: black;
@@ -294,4 +438,6 @@ color: #000000;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+
 }
+
