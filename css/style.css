@@ -209,7 +209,50 @@ color: #000000;
     .get {
         width: 1282px;
         margin: 0 auto;
+        padding: 100px 0 30px;
         background-image: url(../images/section_get_bgc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .get_section_title {
+        font-family: 'Inter', sans-serif;        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        color: #ffffff;
+        margin-bottom: 30px;
+        line-height: 133.02%;
+    }
+    .get_section_mainbox {
+        width: 916px;
+        background-color: #ffffff;
+        position: relative;
+        border-radius: 8px;
+        padding: 50px 30px;
+    }
+    .get_section_main_then_title {
+        font-family: 'Inter', sans-serif;        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 133.02%;
+        margin: 10px 0 5px;
+    }
+    .section_get_code {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+    }
+    .get_section_button_flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 21px;
+        color: #2254B4;
+        gap: 5px;
     }
 /* Get bo'limi tugadi ===========================================*/
 
