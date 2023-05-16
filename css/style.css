@@ -11,6 +11,24 @@ body{
 }
 =======
 
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Black.ttf);
+    src: url(../fonts/Inter-Bold.ttf);
+    src: url(../fonts/Inter-ExtraBold.ttf);
+    src: url(../fonts/Inter-ExtraLight.ttf);
+    src: url(../fonts/Inter-Light.ttf);
+    src: url(../fonts/Inter-Medium.ttf);
+    src: url(../fonts/Inter-Regular.ttf);
+    src: url(../fonts/Inter-SemiBold.ttf);
+    src: url(../fonts/Inter-Thin.ttf);
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,6 +37,8 @@ body{
     list-style: none;
     text-decoration: none;
 }
+
+
 .biznes{
     width: 1281px;
     height: 916px;
@@ -176,13 +196,13 @@ body{
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
-    border: 1px solid black;
+    
     margin: 0 auto;
 }
 .build_header{
     margin: 0 auto;
     width: 916px;
-height: 186px;
+height: 230px;
 }
 .build .container{
     margin-top: 52px;
@@ -192,10 +212,10 @@ margin-top: 51px;
 }
 .build{
     margin: 0 auto;
-height: 1200px;
+height: 1204px;
 width: 1280px;
-border: 1px solid red;
-border-color: #FFF;
+
+background-color: #FFF;
 }
 .direct_pay_father{
     width: 916px;
@@ -205,7 +225,7 @@ border-color: #FFF;
     justify-content: space-between;
 }
 .build_header_big_text{
-    
+    margin-bottom: 30px;
 
 /* header 1 */
 
@@ -263,6 +283,7 @@ line-height: 133.02%;
 
 color: #FFFFFF;
 margin-top: 24px;
+margin-bottom: 28px;
 }
 .text_small-build_connect{
     font-family: 'Inter';
@@ -276,7 +297,7 @@ line-height: 18px;
 /* white */
 
 color: #FFFFFF;
-margin-top: 8px;
+/* margin-top: 28px; */
 }
 .build_connect-button{
     width: 148px;
@@ -338,6 +359,7 @@ border-radius: 4px;
 
 
 /* Get bo'limi boshlandi ===========================================*/
+
     
     .get .container {
         width: 916px;
@@ -393,6 +415,8 @@ border-radius: 4px;
         gap: 5px;
     }
     
+=======
+>>>>>>> f65222aa1fe9b946eb38d6d3a67083667411f46e
 /* Get bo'limi tugadi ===========================================*/
 
 
