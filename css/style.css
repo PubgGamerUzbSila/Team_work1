@@ -15,6 +15,8 @@
 }
 
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,6 +25,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 
 .biznes{
     width: 1281px;
@@ -159,7 +162,6 @@
     border-radius: 111px;
 }
 
-
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
@@ -219,8 +221,8 @@ color: #000000;
 
 
 /* Get bo'limi boshlandi ===========================================*/
-    
 /* Get bo'limi tugadi ===========================================*/
+
 
 .footer1{
     background-color: black;
