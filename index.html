@@ -4,37 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Mono</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header start -->
-     <section class="header"></section>
+     <section class="header">
+        <div class="header_container">
+            <div class="header_navbar">
+                <ul>
+                    <li><a href="#0"><img src="images/Frame 36.svg"></img></a></li>
+                    <div>
+                        <li><a href="#0">Why mono <img class="vektor" src="images/Vector.svg" alt=""></a></li>
+                      <li><a href="#0">Why mono <img class="vektor" src="images/Vector.svg" alt="">  </a></li>
+                      <li><a href="#0">Why mono <img class="vektor" src="images/Vector.svg" alt="">  </a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="header_dashboard_container">
+                <div class="header_footer">
+                    <div class="header_dashboard">
+                        <a href="#0">NEW</a>
+                        <p>Mono Dashboard 3.0 is live!</p>
+                        <i id="right_strelka"></i>
+                    </div>
+                    <div class="header_title_box">
+                        <div class="texts">
+                            <h1>Reliably access bank accounts</h1>
+                        <h3>Mono Helps business to access high quality financial data and direct bank payments</h3>
+                        </div>
+                        <div class="header_btn_box">
+                            <button> Get started for free <i id="right_strelka"></i></button>
+                            <button> Contact sales <i class="right_strelka"></i></button>
+                        </div>
+                        <div>
+                            <img class="img" src="images/header-img.jpg" alt="">
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+     </section>
     <!--  Header end-->
     <!-- Build start -->
-    <section class="build"></section>
-
-   <div class="container">
+    <section class="build">   
      <div class="build_header">
-        <h1 class="build_header_big_text">Build for the future of digital finance.</h1>
-        <p class="build_header_small_text">Bring tomorrow's solutions to life, with our customer-focused solutions, today.</p>
+        <div class="container">
+        <h1 class="build_header_big_text">Build for the future of <br> digital finance.</h1>
+        <p class="build_header_small_text">Bring tomorrow's solutions to life, with our <br> customer-focused solutions, today.</p>
     </div>
-
-    <div class="build_body">
-     <div class="build_connect"></div>
-     <div class="direct_pay_father">
-        <div class="direct_pay1"></div>
-        <div class="direct_pay2"></div>
-     </div>
     </div>
-
-
-
+        <div class="build_body">
+            <div class="container">
+            <div class="build_connect">
+                <img src="./images/build_connect_header-logo.svg" alt="">
+                <h1 class="text_big-build_connect">Connect</h1>
+                <p class="text_small-build_connect">Securely access financial accounts for <br> statements, transactions, and identity</p>
+                <button class="build_connect-button"><img src="./images/build_connect-buttonimg.svg" alt=""></button>
+            </div>
+            <div class="direct_pay_father">
+               <div class="direct_pay1">
+                <img src="./images/direct_pay1_header-logo.svg" alt="">
+                <h1 class="text_big-build_connect" id="color-black">DirectPay</h1>
+                <p class="text_small-build_connect" id="color-black">Collect bank payments in your web or mobile <br> app. No cards. No chargebacks.</p>
+                <button class="direct_pay1-button"><img src="./images/direct_pay1-buttonimg.svg" alt=""></button>
+                <div class="direct_pay1_footer">
+                    <p class="foter_text-direct-pay">In Partnership with</p>
+                    <img src="./images/direct-pay-footerimg.svg" alt="">
+                </div>
+               </div>
+               <div class="direct_pay2">
+                <img src="./images/direct_pay2_header-logo.svg" alt="">
+                <h1 class="text_big-build_connect">DirectPay</h1>
+                <p class="text_small-build_connect">Collect bank payments in your web or mobile <br> app. No cards. No chargebacks.</p>
+                <button class="direct-pay2-button"><img src="./images/direct-pay-buttonimg2.svg" alt=""></button>
+               </div>
+            </div>
+           </div>
+    </div>
    </div>
+</section>
     <!-- Build end -->
-
-
-
     <!-- biznes start -->
 
     <section class="biznes">
@@ -50,7 +104,7 @@
             <div class="header_busines">
                 
                 <ul>
-                    <li class="leading" style="color: white;">Leading</li>
+                    <li class="loading" style="color: white;">Leading</li>
                     <li>Financial Management</li>
                     <li>Account Verification</li>
                     <li>Payments</li>
@@ -59,9 +113,12 @@
   
             <div class="business_middle">
                 <div class="business_section">
-                    <div class="carbon">Carbon’s personalized <br> loan offers</div>
+                    <div class="carbon">Carbons personalized <br> loan offers</div>
                     <div class="carbon_wanted">Carbon wanted to make their risk assessment and borrower qualification better with high-quality data. <br> <br> Using Mono's Statement Pages, Carbon can receive its users' bank statements in minutes. They get cash flow on the accounts for up to 12 months, all seamlessly without writing a single line of code.</div>
-                    <div class="read_more">Read more about Statement Pages</div>
+                    <div class="flex_for_biznes">
+                        <div class="read_more biznes_for">Read more about Statement Pages</div>
+                    <div class="biznes_icon biznes_for"><img src="images/arrow-right.png" alt=""></div>
+                    </div>
                 </div>
     
                 <div class="business_images">
@@ -187,12 +244,29 @@
             <div class="get_section_mainbox">
                 <div class="get_section_main_header">
                     <img src="./images/section_get_header_image.png" alt="header image">
-                    <h3 class="get_section_main_then_title">Powerful APIs and easy-to-use resources</h3>
+                    <h3 class="get_section_main_then_title">Powerful APIs and <br> easy-to-use <br> resources</h3>
                     <div class="get_section_button_flex">
                         <a href="#">Read our API Docs</a>
-                        <a href="#"><img src="./images/section_left.png" alt="left logo"></a>
+                        <img src="./images/section_left.png" alt="left logo">
                     </div>
                     <img class="section_get_code" src="./images/section_get_code.png" alt="code">
+                </div>
+            </div>
+            <div class="get_section_footer_mainbox">
+                <div class="get_section_smallbox">
+                    <img src="./images/get_section_footer_mainbox_papka.png" alt="papka">
+                    <h3 class="get_section_footer_title">Plug-and-play SDKs</h3>
+                        <a class="link_section_get" href="#">Read our API Docs</a>
+                </div>
+                <div class="get_section_smallbox">
+                    <img src="./images/get_section_footer_mainbox_klip.png" alt="papka">
+                    <h3 class="get_section_footer_title">Plug-and-play SDKs</h3>
+                        <a class="link_section_get" href="#">Read our API Docs</a>
+                </div>
+                <div class="get_section_smallbox">
+                    <img src="./images/get_section_footer_mainbox_then_image.png" alt="papka">
+                    <h3 class="get_section_footer_title">Plug-and-play SDKs</h3>
+                        <a class="link_section_get" href="#">Read our API Docs</a>
                 </div>
             </div>
         </div>
