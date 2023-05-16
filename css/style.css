@@ -196,9 +196,12 @@ color: #000000;
     .get .container {
         width: 916px;
         margin: 0 auto;
+        border: none;
     }
     .get {
         width: 1282px;
+        margin: 0 auto;
+        background-image: url(../images/section_get_bgc.png);
     }
 /* Get bo'limi tugadi ===========================================*/
 
