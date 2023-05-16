@@ -24,6 +24,17 @@ body{
     src: url(../fonts/Inter-Thin.ttf);
     src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
 
 
 
@@ -530,13 +541,32 @@ border-radius: 4px;
         color: #2254B4;
         gap: 5px;
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> f65222aa1fe9b946eb38d6d3a67083667411f46e
-=======
 
->>>>>>> 703cdac2fe9d7bcb348fa20773c1f18a45519234
+    .get_section_footer_mainbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .get_section_smallbox {
+        width: 293px;
+        padding: 30px 20px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    .get_section_footer_title {
+        width: 199px;
+        margin: 10px 0;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .link_section_get {
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
 /* Get bo'limi tugadi ===========================================*/
 
 
