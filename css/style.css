@@ -14,7 +14,7 @@
 
 * {
     box-sizing: border-box;
-   margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -152,8 +152,8 @@ ul{
     list-style-type: none;
 }
 .header_container{
-    padding-right: 8%;
-    padding-left: 8%;
+    width: 916px;
+    margin: 0 auto;
     margin-bottom: 200px;
 }
 .header_navbar{
@@ -187,12 +187,10 @@ line-height: 18px;
 color: #000000;
 
 }
-.header_footer{
-  position: relative;  
-}
 .header_dashboard_container .header_footer .header_title_box .header_btn_box button{
     padding:10px 15px ;
     border: none;
+    cursor: pointer;
     margin-top: 10px;
  }
  .header_dashboard_container .header_footer .header_title_box .header_btn_box button:first-child{
@@ -200,6 +198,7 @@ color: #000000;
 padding: 10px 14.5px;
 background: #2254B4;
 border-radius: 4px;
+cursor: pointer;
     color: #fff;
     border-radius: 5px;
  }
@@ -234,7 +233,7 @@ border-radius: 4px;
     gap: 5px ;
     padding: 3px ;
 }
- .header_dashboard_container .header_footer .header_dashboard a{
+ .header_dashboard_container .header_dashboard a{
     background-color: lightblue;
     padding: 4px 8px ;
     font-size: 12px;
@@ -243,21 +242,20 @@ border-radius: 4px;
  .header_dashboard_container .header_footer .header_title_box .texts h1{
     font-size: 56px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-width: 446px;
-height: 156px;
-line-height: 75px;
- }
- .img{
-    position: absolute;
-    top:-40px;
-    right:-250px;
+    font-style: normal;
+    font-weight: 700;
+    width: 446px;
+    height: 156px;
+    line-height: 75px;
  }
  .header_dashboard_container .header_footer .header_title_box .texts h3{
     width: 446px;
 }
  /*header qismi tugadi */
+.header_footer{
+    display: flex;
+}
+
 
 
 .biznes{
@@ -311,6 +309,8 @@ line-height: 75px;
     margin-left: 182px;
     margin-top: 50px;
     background: #F5F5F5;
+    border-radius: 8px;
+    border-radius: 8px;    
     border-radius: 8px;
 }
 .header_busines{
@@ -409,16 +409,22 @@ line-height: 75px;
     gap: 5px;
     align-items: center;
 }
+
+.biznes_for:hover{
+    background-color: #817a7a;
+    cursor: pointer;
+}
+
+
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
-    border: 1px solid black;
     margin: 0 auto;
 }
 .build_header{
     margin: 0 auto;
     width: 916px;
-height: 186px;
+height: 230px;
 }
 .build .container{
     margin-top: 52px;
@@ -428,10 +434,10 @@ margin-top: 51px;
 }
 .build{
     margin: 0 auto;
-height: 1200px;
+height: 1204px;
 width: 1280px;
-border: 1px solid red;
-border-color: #FFF;
+
+background-color: #FFF;
 }
 .direct_pay_father{
     width: 916px;
@@ -441,7 +447,8 @@ border-color: #FFF;
     justify-content: space-between;
 }
 .build_header_big_text{
-    
+ margin-bottom: 10px;   
+    margin-bottom: 30px;
 
 /* header 1 */
 
@@ -452,6 +459,7 @@ font-size: 56px;
 line-height: 78px;
 }
 /* black */
+
 
 .build_header_small_text{
     /* margin-top: 74px; */
@@ -474,8 +482,12 @@ line-height: 25px;
 /* black */
 
 color: #000000;
+
 }
 .build_connect{
+    background-image: url(../images/build-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 916px;
 height: 354px;
 padding: 56px 0 0    45px;
@@ -495,6 +507,7 @@ line-height: 133.02%;
 
 color: #FFFFFF;
 margin-top: 24px;
+margin-bottom: 28px;
 }
 .text_small-build_connect{
     font-family: 'Inter';
@@ -508,7 +521,7 @@ line-height: 18px;
 /* white */
 
 color: #FFFFFF;
-margin-top: 8px;
+/* margin-top: 28px; */
 }
 .build_connect-button{
     width: 148px;
@@ -543,6 +556,7 @@ margin-top: 28px;
 border: none;
 cursor: pointer;
 }
+
 .direct_pay2{
     margin-left: 20px;
     width: 448px;
@@ -570,6 +584,7 @@ border-radius: 4px;
 
 
 /* Get bo'limi boshlandi ===========================================*/
+
     
     .get .container {
         width: 916px;
@@ -624,6 +639,7 @@ border-radius: 4px;
         color: #2254B4;
         gap: 5px;
     }
+
     .get_section_footer_mainbox {
         display: flex;
         flex-wrap: wrap;
