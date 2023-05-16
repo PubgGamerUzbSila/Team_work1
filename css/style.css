@@ -193,6 +193,13 @@ color: #000000;
 
 /* Get bo'limi boshlandi ===========================================*/
     
+    .get .container {
+        width: 916px;
+        margin: 0 auto;
+    }
+    .get {
+        width: 1282px;
+    }
 /* Get bo'limi tugadi ===========================================*/
 
 .footer1{
