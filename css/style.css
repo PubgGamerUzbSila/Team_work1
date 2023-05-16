@@ -11,17 +11,19 @@ a{
     color: black;
 }
 .header_container{
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-bottom: 200px;
 }
 .header_navbar{
+    padding-left: 10%;
+    padding-right: 8%;
     margin: 0 auto;
     padding-top: 50px;
 }
 .header_navbar ul{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 auto ;
 }
 .header .header_container .header_navbar div{
@@ -78,8 +80,8 @@ border-radius: 4px;
 }
 
 .header_dashboard_container{
-    padding-left: 8%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 50%;
 }
 .header_dashboard{
     display: flex;
@@ -123,12 +125,8 @@ line-height: 75px;
     height: 916px;
     margin-left: 182px;
     margin-top: 148px;
-<<<<<<< HEAD
     background-color: antiquewhite;
-=======
     margin: 0 auto;
-   
->>>>>>> 703cdac2fe9d7bcb348fa20773c1f18a45519234
 }
 .description{
     display: flex;
@@ -175,14 +173,11 @@ line-height: 75px;
     background: #F5F5F5;
     border-radius: 8px;
 } 
-<<<<<<< HEAD
 
-=======
 .header_busines{
     width: 544px;
     height: 42px;
 }
->>>>>>> 703cdac2fe9d7bcb348fa20773c1f18a45519234
 .header_busines ul{
     list-style: none;
     display: flex;
