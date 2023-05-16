@@ -10,9 +10,10 @@
 .biznes{
     width: 1281px;
     height: 916px;
-    margin-left: 182pxpx;
-    margin-top: 148pxpx;
-    background-color: antiquewhite;
+    margin-left: 182px;
+    margin-top: 148px;
+    margin: 0 auto;
+   
 }
 .description{
     display: flex;
@@ -60,7 +61,8 @@
     border-radius: 8px;
 } 
 .header_busines{
-    
+    width: 544px;
+    height: 42px;
 }
 .header_busines ul{
     list-style: none;
@@ -75,11 +77,15 @@
     margin-top: 56px;
     padding-top: 44px;
 }
+.header_busines ul li:hover{
+    background-color: #9f9999;
+    cursor: pointer;
+}
 .business_middle{
     display: flex;
     justify-content: space-between;
 }
-.leading{
+.loading{
    
     display: flex;
     flex-direction: row;
@@ -90,6 +96,10 @@
     height: 42px;
     background: #000000;
     border-radius: 26px;
+}
+.loading:hover{
+    background-color: #9f9999;
+    cursor: pointer;
 }
 .carbon{
     margin-top: 88px;
@@ -136,10 +146,18 @@
     position: absolute;
     width: 90px;
     height: 90px;
-    left: 189px;
-    top: 116px;
+    left: 239px;
+    top: -26px;
     background: #FFFFFF;
     border-radius: 111px;
+}
+.biznes_icon{
+    margin-top: -16px;
+    margin-left: 238px;
+}
+.biznes_for:hover{
+    background-color: #817a7a;
+    cursor: pointer;
 }
 
 /* build qismi boshlandi============================================== */
