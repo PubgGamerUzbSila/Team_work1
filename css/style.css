@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,170 @@
 body{
     background-color: #ccc;
 }
+=======
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+.biznes{
+    width: 1281px;
+    height: 916px;
+    margin-left: 182px;
+    margin-top: 148px;
+    margin: 0 auto;
+   
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 446px;
+    height: 186px;
+    margin-left: 182px;
+    margin-top: 27px;
+}
+.business_building{
+    margin-left: 182px;
+    margin-top: 148px;
+    width: 446px;
+    height: 112px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 133.02%;
+    color: #000000;
+}
+.here_are{
+   
+    margin-left: 182px;
+    margin-top: 24px;
+    width: 446px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+}
+ .business_bottom{
+   
+    width: 916px;
+    height: 635px;
+    margin-left: 182px;
+    margin-top: 50px;
+    background: #F5F5F5;
+    border-radius: 8px;
+} 
+.header_busines{
+    width: 544px;
+    height: 42px;
+}
+.header_busines ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 544px;
+    height: 42px;
+    margin-left: 59px;
+    margin-top: 56px;
+    padding-top: 44px;
+}
+.header_busines ul li:hover{
+    background-color: #9f9999;
+    cursor: pointer;
+}
+.business_middle{
+    display: flex;
+    justify-content: space-between;
+}
+.loading{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14.5px;
+    gap: 5px;
+    width: 79px;
+    height: 42px;
+    background: #000000;
+    border-radius: 26px;
+}
+.loading:hover{
+    background-color: #9f9999;
+    cursor: pointer;
+}
+.carbon{
+    margin-top: 88px;
+    margin-left: 45px;
+    width: 345px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133.02%;
+    color: #000000; 
+}
+.carbon_wanted{
+    margin-top: 24px;
+    margin-left: 45px;
+    width: 345px;
+    height: 126px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #606060;
+}
+.read_more{
+    margin-top: 45px;
+    margin-left: 45px;
+    width: 220px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2254B4;
+}
+.busines_phone{
+    position: relative;
+    margin-top: 108px;
+    margin-right: 35px;
+}
+.business_logo{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 239px;
+    top: -26px;
+    background: #FFFFFF;
+    border-radius: 111px;
+}
+.biznes_icon{
+    margin-top: -16px;
+    margin-left: 238px;
+}
+.biznes_for:hover{
+    background-color: #817a7a;
+    cursor: pointer;
+}
+
+>>>>>>> 455fe3751045715d15f32ddef33be839d1614e3d
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
@@ -171,6 +336,67 @@ border-radius: 4px;
 }
 /* built qismi tugadi======================================= */
 
+<<<<<<< HEAD
+=======
+/* Get bo'limi boshlandi ===========================================*/
+    
+    .get .container {
+        width: 916px;
+        margin: 0 auto;
+        border: none;
+    }
+    .get {
+        width: 1282px;
+        margin: 0 auto;
+        padding: 100px 0 30px;
+        background-image: url(../images/section_get_bgc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .get_section_title {
+        font-family: 'Inter', sans-serif;        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        color: #ffffff;
+        margin-bottom: 30px;
+        line-height: 133.02%;
+    }
+    .get_section_mainbox {
+        width: 916px;
+        background-color: #ffffff;
+        position: relative;
+        border-radius: 8px;
+        padding: 50px 30px;
+    }
+    .get_section_main_then_title {
+        font-family: 'Inter', sans-serif;        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 133.02%;
+        margin: 10px 0 5px;
+    }
+    .section_get_code {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+    }
+    .get_section_button_flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 21px;
+        color: #2254B4;
+        gap: 5px;
+    }
+    
+/* Get bo'limi tugadi ===========================================*/
+
+>>>>>>> 455fe3751045715d15f32ddef33be839d1614e3d
 .footer1{
     background-color: black;
 }
@@ -185,7 +411,8 @@ border-radius: 4px;
     color: #FFFFFF;
 }
 .yozuv1{
-    width: 100px;
+    width: 450px;
+    margin: 0 auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400px;
@@ -193,5 +420,9 @@ border-radius: 4px;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 455fe3751045715d15f32ddef33be839d1614e3d
