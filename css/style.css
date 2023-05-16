@@ -1,0 +1,23 @@
+.footer1{
+    background-color: black;
+}
+.h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 133.02%;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.yozuv1{
+    width: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
