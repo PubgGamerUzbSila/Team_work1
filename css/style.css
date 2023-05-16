@@ -44,6 +44,27 @@ line-height: 18px;
 color: #000000;
 
 }
+.header_footer{
+  position: relative;  
+}
+.header_dashboard_container .header_footer .header_title_box .header_btn_box button{
+    padding:10px 15px ;
+    border: none;
+    margin-top: 10px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box button:first-child{
+    display: flex;
+padding: 10px 14.5px;
+background: #2254B4;
+border-radius: 4px;
+    color: #fff;
+    border-radius: 5px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .header_btn_box{
+    display: flex;
+    gap: 10px;
+ }
+
 .header .header_container .header_navbar ul li{
     padding: 5px 27px;
 }
@@ -57,7 +78,7 @@ color: #000000;
 }
 
 .header_dashboard_container{
-    padding-left: 15%;
+    padding-left: 8%;
     padding-right: 15%;
 }
 .header_dashboard{
@@ -76,7 +97,7 @@ color: #000000;
     font-size: 12px;
     border-radius: 20px;
  }
- .header_dashboard_container .header_footer .header_title_box h1{
+ .header_dashboard_container .header_footer .header_title_box .texts h1{
     font-size: 56px;
     font-family: 'Inter';
 font-style: normal;
@@ -84,14 +105,190 @@ font-weight: 700;
 width: 446px;
 height: 156px;
 line-height: 75px;
+ }
+ .img{
+    position: absolute;
+    top:-40px;
+    right:-250px;
+ }
+ .header_dashboard_container .header_footer .header_title_box .texts h3{
+    width: 446px;
+}
+ /*header qismi tugadi */
 
+
+
+.biznes{
+    width: 1281px;
+    height: 916px;
+    margin-left: 182px;
+    margin-top: 148px;
+    background-color: antiquewhite;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 446px;
+    height: 186px;
+    margin-left: 182px;
+    margin-top: 27px;
+}
+.business_building{
+    margin-left: 182px;
+    margin-top: 148px;
+    width: 446px;
+    height: 112px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 133.02%;
+    color: #000000;
+}
+.here_are{
+   
+    margin-left: 182px;
+    margin-top: 24px;
+    width: 446px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+}
+ .business_bottom{
+   
+    width: 916px;
+    height: 635px;
+    margin-left: 182px;
+    margin-top: 50px;
+    background: #F5F5F5;
+    border-radius: 8px;
+} 
+
+.header_busines ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 544px;
+    height: 42px;
+    margin-left: 59px;
+    margin-top: 56px;
+    padding-top: 44px;
+}
+.business_middle{
+    display: flex;
+    justify-content: space-between;
+}
+.leading{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14.5px;
+    gap: 5px;
+    width: 79px;
+    height: 42px;
+    background: #000000;
+    border-radius: 26px;
+}
+.carbon{
+    margin-top: 88px;
+    margin-left: 45px;
+    width: 345px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133.02%;
+    color: #000000; 
+}
+.carbon_wanted{
+    margin-top: 24px;
+    margin-left: 45px;
+    width: 345px;
+    height: 126px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #606060;
+}
+.read_more{
+    margin-top: 45px;
+    margin-left: 45px;
+    width: 220px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2254B4;
+}
+.busines_phone{
+    position: relative;
+    margin-top: 108px;
+    margin-right: 35px;
+}
+.business_logo{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 189px;
+    top: 116px;
+    background: #FFFFFF;
+    border-radius: 111px;
+}
+
+/* build qismi boshlandi============================================== */
+.container{
+    width: 916px;
+    border: 1px solid black;
+}
+.build_header{
+    width: 446px;
+height: 186px;
+}
+.build .container{
+    margin-top: 52px;
+}
+.build{
+height: 1200px;
+width: 1280px;
+border: 1px solid black;
+border-color: #FFF;
+}
+.build_header_big_text{
+    width: 446px;
+height: 156px;
+
+/* header 1 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 78px;
+}
 /* black */
 
-color: #000000;
 
- }
- .header_dashboard_container .header_footer .header_title_box h3{
-    width: 446px;
+
+
+.build_header_small_text{
+    margin-top: 74px;
+width: 446px;
 height: 50px;
 
 /* body text 1 */
@@ -102,25 +299,44 @@ margin-bottom: 31px;
 font-weight: 400;
 font-size: 19px;
 line-height: 25px;
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+/* or 132% */
 
 
 /* black */
 
 color: #000000;
  }
- .header_dashboard_container .header_footer .header_title_box .header_btn_box button{
-    padding:10px 15px ;
-    border: none;
- }
- .header_dashboard_container .header_footer .header_title_box .header_btn_box button:first-child{
-    display: flex;
-padding: 10px 14.5px;
-background: #2254B4;
-border-radius: 4px;
-    color: #fff;
-    border-radius: 5px;
- }
- .header_dashboard_container .header_footer .header_title_box .header_btn_box{
-    display: flex;
-    gap: 10px;
- }
+
+/* built qismi tugadi======================================= */
+
+/* Get bo'limi boshlandi ===========================================*/
+    
+/* Get bo'limi tugadi ===========================================*/
+
+.footer1{
+    background-color: black;
+}
+.h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 133.02%;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.yozuv1{
+    width: 450px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
