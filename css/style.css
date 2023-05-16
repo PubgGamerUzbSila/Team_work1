@@ -123,7 +123,12 @@ line-height: 75px;
     height: 916px;
     margin-left: 182px;
     margin-top: 148px;
+<<<<<<< HEAD
     background-color: antiquewhite;
+=======
+    margin: 0 auto;
+   
+>>>>>>> 703cdac2fe9d7bcb348fa20773c1f18a45519234
 }
 .description{
     display: flex;
@@ -170,7 +175,14 @@ line-height: 75px;
     background: #F5F5F5;
     border-radius: 8px;
 } 
+<<<<<<< HEAD
 
+=======
+.header_busines{
+    width: 544px;
+    height: 42px;
+}
+>>>>>>> 703cdac2fe9d7bcb348fa20773c1f18a45519234
 .header_busines ul{
     list-style: none;
     display: flex;
@@ -184,11 +196,15 @@ line-height: 75px;
     margin-top: 56px;
     padding-top: 44px;
 }
+.header_busines ul li:hover{
+    background-color: #9f9999;
+    cursor: pointer;
+}
 .business_middle{
     display: flex;
     justify-content: space-between;
 }
-.leading{
+.loading{
    
     display: flex;
     flex-direction: row;
@@ -199,6 +215,10 @@ line-height: 75px;
     height: 42px;
     background: #000000;
     border-radius: 26px;
+}
+.loading:hover{
+    background-color: #9f9999;
+    cursor: pointer;
 }
 .carbon{
     margin-top: 88px;
@@ -223,9 +243,9 @@ line-height: 75px;
     font-size: 13px;
     line-height: 18px;
     color: #606060;
+    margin-bottom: 30px;
 }
 .read_more{
-    margin-top: 45px;
     margin-left: 45px;
     width: 220px;
     height: 21px;
@@ -245,12 +265,16 @@ line-height: 75px;
     position: absolute;
     width: 90px;
     height: 90px;
-    left: 189px;
-    top: 116px;
+    left: 239px;
+    top: -26px;
     background: #FFFFFF;
     border-radius: 111px;
 }
-
+.flex_for_biznes {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
 /* build qismi boshlandi============================================== */
 .container{
     width: 916px;
@@ -314,6 +338,60 @@ color: #000000;
 
 /* Get bo'limi boshlandi ===========================================*/
     
+    .get .container {
+        width: 916px;
+        margin: 0 auto;
+        border: none;
+    }
+    .get {
+        width: 1282px;
+        margin: 0 auto;
+        padding: 100px 0 30px;
+        background-image: url(../images/section_get_bgc.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .get_section_title {
+        font-family: 'Inter', sans-serif;        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        color: #ffffff;
+        margin-bottom: 30px;
+        line-height: 133.02%;
+    }
+    .get_section_mainbox {
+        width: 916px;
+        background-color: #ffffff;
+        position: relative;
+        border-radius: 8px;
+        padding: 50px 30px;
+    }
+    .get_section_main_then_title {
+        font-family: 'Inter', sans-serif;        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 133.02%;
+        margin: 10px 0 5px;
+    }
+    .section_get_code {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+    }
+    .get_section_button_flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 21px;
+        color: #2254B4;
+        gap: 5px;
+    }
+
 /* Get bo'limi tugadi ===========================================*/
 
 .footer1{
